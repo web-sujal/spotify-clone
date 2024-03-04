@@ -15,6 +15,7 @@ const Library = () => {
           <TbPlaylist size={26} className="text-neutral-400" />
           <p className="text-md font-medium text-neutral-400">Your Library</p>
         </div>
+
         <AiOutlinePlus
           onClick={onClick}
           size={20}
