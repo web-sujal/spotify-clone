@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import qs from "query-string";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
 import useDebounce from "@/hooks/useDebounce";
@@ -18,9 +18,9 @@ const SearchInput = () => {
       title: debouncedValue,
     };
 
-    const url = qs.stringify({
+    const url = qs.stringifyUrl({
       url: "/search",
-      query: query,
+      query,
     });
 
     router.push(url);
