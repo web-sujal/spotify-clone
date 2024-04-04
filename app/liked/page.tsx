@@ -19,7 +19,7 @@ const Liked = async () => {
               {/* TODO: update image src path to /images/liked.png */}
               <Image
                 fill
-                src="/images/mha.jpg"
+                src="/images/liked.png"
                 alt="Playlist"
                 className="object-cover"
               />
