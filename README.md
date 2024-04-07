@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [Project Overview](#project-overview)
+- [Live Demo](#live-demo)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a Spotify clone, developed purely out of a love for music. It's designed for entertainment and educational purposes, aiming to replicate the core functionalities of Spotify in a simplified manner.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Motivation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The motivation behind this project is to create a platform that not only provides a great listening experience but also serves as a learning ground for web development technologies.
 
-## Learn More
+## Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Visit [spotify-clone-ten-psi.vercel.app](https://spotify-clone-ten-psi.vercel.app) to see the project in action.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Guest login credentials :-
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- email : guest@gmail.com
+- password: password
 
-## Deploy on Vercel
+## Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Homepage](https://via.placeholder.com/150)
+![Search Functionality](https://via.placeholder.com/150)
+![Liked Playlist](https://via.placeholder.com/150)
+![Advanced Player](https://via.placeholder.com/150)
+![Responsive Design](https://via.placeholder.com/150)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features
+
+- **Subscription Feature**: Currently incorporating a subscription feature using Stripe for premium users.
+- **Sleek User Interface**: The UI is designed to closely resemble Spotify's sleek design, using Tailwind CSS for styling.
+- **Responsive Design**: The application is fully responsive, ensuring compatibility across all devices.
+- **Authentication**: Secure user registration and login processes are handled with Supabase.
+- **Audio Playback**: Enables song playback within the application.
+- **Playlists / Liked Songs System**: Users can create and manage their song playlists.
+- **Advanced Player Component**: An advanced music player component for enhanced user experience.
+
+## Tech Stack
+
+This project is built using a variety of technologies:
+
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Backend**: Supabase, PostgreSQL
+- **Payment Processing**: Stripe
+- **State management**: Zustand
+
+## Installation
+
+To install and run this project locally, follow these steps:
+
+1. Clone the repository.
+   `git clone https://github.com/SashenJayathilaka/Spotify-Clone.git`
+2. Install dependencies: `npm install` or `yarn install`.
+3. Install tailwind CSS with Next.js: `npm install -D tailwindcss postcss autoprefixer`
+
+   `npx tailwindcss init -p`
+
+4. Start the development server: `npm run dev` or `yarn dev`.
+
+Open http://localhost:3000 with your browser to see the result.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes.
+- Commit your changes with a descriptive commit message.
+- Push your branch to your fork.
+- Open a pull request.
+
+## Credits
+
+This project was inspired by the work of Code with Antonio and the Spotify App.
+
+## License
+
+This project is licensed under the MIT License.
