@@ -31,7 +31,6 @@ const UploadModal = () => {
   });
 
   const onSubmit: SubmitHandler<FieldValues> = async (values) => {
-    // TODO: upload to supabase
     try {
       setIsLoading(true);
 

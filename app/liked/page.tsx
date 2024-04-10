@@ -16,7 +16,6 @@ const Liked = async () => {
         <div className="mt-20">
           <div className="flex flex-col md:flex-row items-center gap-x-5">
             <div className="relative size-32 lg:size-44">
-              {/* TODO: update image src path to /images/liked.png */}
               <Image
                 fill
                 src="/images/liked.png"
