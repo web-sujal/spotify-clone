@@ -31,7 +31,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={`${font.className} max-h-[100vh]`}>
         <ToasterProvider />
         <SupabaseProvider>
           <UserProvider>
