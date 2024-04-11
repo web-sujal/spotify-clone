@@ -14,6 +14,7 @@ import { useUser } from "@/hooks/useUser";
 import usePlayer from "@/hooks/usePlayer";
 
 import Button from "./Button";
+import Link from "next/link";
 
 interface HeaderProps {
   children: React.ReactNode;
@@ -70,13 +71,19 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 
         {/* mobile header buttons */}
         <div className="flex md:hidden items-center gap-x-2">
-          <button className="rounded-full p-2 flex items-center justify-center bg-white hover:opacity-75 transition">
+          <Link
+            href="/"
+            className="rounded-full p-2 flex items-center justify-center bg-white hover:opacity-75 transition"
+          >
             <HiHome size={20} className="text-black" />
-          </button>
+          </Link>
 
-          <button className="rounded-full p-2 flex items-center justify-center bg-white hover:opacity-75 transition">
+          <Link
+            href="/search"
+            className="rounded-full p-2 flex items-center justify-center bg-white hover:opacity-75 transition"
+          >
             <BiSearch size={20} className="text-black" />
-          </button>
+          </Link>
         </div>
 
         {/* sign up and login in buttons */}
