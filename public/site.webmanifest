@@ -14,10 +14,10 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#317EFB",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "/index.html",
+  "start_url": "/",
   "scope": "/",
   "orientation": "any",
   "prefer_related_applications": false,
