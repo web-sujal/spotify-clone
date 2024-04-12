@@ -1,48 +1,47 @@
-# Spotify Clone
+<div align="center">
+    <img src="./public/images/spotify-logo.jpg" width="128" height="128" style="display: block; margin: 0 auto"/>
+    <h1>Spotify</h1>
+    <p>A captivating web platform inspired by Spotify, crafted for immersive music streaming experiences.</p>
 
-## Table of Contents
+</div>
 
-- [Project Overview](#project-overview)
-- [Live Demo](#live-demo)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-
-## Project Overview
-
-This project is a Spotify clone, developed purely out of a love for music. It's designed for entertainment and educational purposes, aiming to replicate the core functionalities of Spotify in a simplified manner.
-
-## Motivation
-
-The motivation behind this project is to create a platform that not only provides a great listening experience but also serves as a learning ground for web development technologies.
+---
 
 ## Live Demo
 
-Visit [spotify-clone-ten-psi.vercel.app](https://spotify-clone-ten-psi.vercel.app) to see the project in action.
+Visit [web-sujal-spotify-clone.vercel.app](https://web-sujal-spotify-clone.vercel.app/) to see the project in action.
 
 Guest login credentials :-
 
-- email : guest@gmail.com
+- email : ceyitiy893@acname.com
 - password: password
+
+<!-- for test subscription checkout, please use this card no.
+
+- 4000003560000008 (for India)
+- 4242 4242 4242 4242 (for Others) -->
 
 ## Screenshots
 
-![Homepage](https://via.placeholder.com/150)
-![Search Functionality](https://via.placeholder.com/150)
-![Liked Playlist](https://via.placeholder.com/150)
-![Advanced Player](https://via.placeholder.com/150)
-![Responsive Design](https://via.placeholder.com/150)
+<p align="center">
+   <img src="./public/images/screenshots/home.png" width="40%">
+   <img src="./public/images/screenshots/search.png" width="40%">
+   <img src="./public/images/screenshots/liked.png" width="40%">
+   <img src="./public/images/screenshots/upload_song.png" width="40%">
+   <img src="./public/images/screenshots/m_home.png" width="30%">
+   <img src="./public/images/screenshots/m_search.png" width="30%">
+   <img src="./public/images/screenshots/m_liked.png" width="30%">
+</p>
 
-## Features
+## Key Features
 
-- **Subscription Feature**: Currently incorporating a subscription feature using Stripe for premium users.
-- **Sleek User Interface**: The UI is designed to closely resemble Spotify's sleek design, using Tailwind CSS for styling.
-- **Responsive Design**: The application is fully responsive, ensuring compatibility across all devices.
-- **Authentication**: Secure user registration and login processes are handled with Supabase.
-- **Audio Playback**: Enables song playback within the application.
-- **Playlists / Liked Songs System**: Users can create and manage their song playlists.
-- **Advanced Player Component**: An advanced music player component for enhanced user experience.
+- **Subscription Support:** Enjoy access to premium features with subscription services.
+- **Sleek User Interface:** Navigate through a modern interface inspired by Spotify's design.
+- **Fully Responsive Layout:** Experience seamless compatibility across various devices.
+- **Secure Authentication:** Protect your account with robust user authentication using Supabase.
+- **Seamless Audio Playback:** Stream music effortlessly with uninterrupted playback.
+- **Liked Songs:** Update, manage, and curate your liked songs anytime.
+- **Advanced Music Player:** Enhance your listening experience with a feature-rich music player component.
 
 ## Tech Stack
 
@@ -68,20 +67,9 @@ To install and run this project locally, follow these steps:
 
 Open http://localhost:3000 with your browser to see the result.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Make your changes.
-- Commit your changes with a descriptive commit message.
-- Push your branch to your fork.
-- Open a pull request.
-
 ## Credits
 
-This project was inspired by the work of Code with Antonio and the Spotify App.
+This project was inspired by the work of [Code with Antonio](https://github.com/AntonioErdeljac/) and the [Spotify App](https://open.spotify.com/).
 
 ## License
 
